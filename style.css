@@ -1,0 +1,52 @@
+*,
+::after,
+::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background: #fff;
+    height: 100%;
+    padding: 2rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 1000px;
+    padding: 96px;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,0.25), 0.125em 0.125em 0.125em rgba(0, 0, 0, 0.15);
+}
+
+.intro .intro-one {
+    padding-bottom: 20px;
+}
+
+.intro-one p {
+    font-size: 16px!important;
+}
+
+p .normal {
+    font-style: italic;
+}
+
+.intro-two span,
+.intro-two a {
+    padding-left: 7px;
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.intro-two h2 {
+    font-size: 19px;
+}
+
+
