@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: 16px;
     background: #fff;
     height: 100%;
     padding: 2rem 3rem;
@@ -40,12 +40,11 @@ p .normal {
     padding-bottom: 20px;
 }
 
-.intro-two span,
-.intro-two a {
+.intro-two span {
     padding-left: 7px;
     text-decoration: none;
     color: #000;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
 }
 
@@ -79,6 +78,19 @@ p .normal {
     text-align: end;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+.body-section__sec  .experience-one{
+    padding-bottom: 15px;
+}
+
+.where,
+.date,
+.course,
+.school-name,
+.position,
+.period {
+    font-style: italic;
 }
 
 
