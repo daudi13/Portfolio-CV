@@ -36,17 +36,51 @@ p .normal {
     font-style: italic;
 }
 
+.intro-two {
+    padding-bottom: 20px;
+}
+
 .intro-two span,
 .intro-two a {
     padding-left: 7px;
     text-decoration: none;
     color: #000;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 400;
 }
 
 .intro-two h2 {
     font-size: 19px;
 }
+
+
+.body-section__sec {
+    padding: 10px 0;
+}
+
+.sec__title {
+    font-size: 16px;
+    padding: 2px 0 5px 0px;
+    background-color: rgba(155, 146, 146, 0.45);
+    border-bottom: 2px solid #000;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.body-section__box {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.body-section__where {
+    display: flex;
+    text-align: end;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
 
 
